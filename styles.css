@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  border: 5px solid black;
+  width: 50vw;
+  height: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.divBox {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid black;
+  flex: auto;
+  opacity: 1;
+}
+
+button {
+  margin: 50px;
+}
